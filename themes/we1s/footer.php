@@ -23,6 +23,7 @@
 		<div class="site-info container text-center">
 			<strong>Materials created by the WE1S project are published under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" class="customize-unpreviewable">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</strong>
 			<br>
+			<!-- Test -->
 			<?php wp_loginout(); ?>
 			<span class="sep"> | </span>
 			<a href="http://we1s.ucsb.edu/feed/?customize_changeset_uuid=166eb3d5-15cb-45bd-86ef-62965b092641&amp;customize_messenger_channel=preview-0" target="_self"><abbr title="Really Simple Syndication">RSS</abbr></a>
