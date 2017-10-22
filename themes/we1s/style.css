@@ -1,0 +1,285 @@
+/*
+Theme Name: WE1S
+Theme URI: http://localhost/we1s/wp-content/themes/we1s
+Description: Sydney child theme for WE1S
+Author: Scott Kleinman
+Author URI: http://scottkleinman.com
+Template: sydney
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: we1s
+*/
+
+.contact-we1s {
+	padding: 0 25px 0 0;
+	text-align: right;
+}		
+/* Smaller than standard 980 */
+@media only screen and (max-width: 991px) {
+	.contact-we1s {
+		padding: 0;
+	}		
+}
+
+.search-results-form {
+	text-align: left;
+}
+
+
+#mainnav ul li a {
+    font-weight: bold;
+}
+
+h2.site-description a {
+    color: #ffffff;
+}
+
+#search-input {
+	height: initial !important;
+}
+
+/* Visible Search Menu */
+#custom-search-input {
+	margin:0;
+	margin-top: -5px;
+	padding: 0;
+	text-align: right;
+}
+
+#custom-results-input {
+	text-align: left;
+}
+
+#custom-search-input .input-group {
+	margin-left: 25px;
+}
+
+/* Prevent search bar from wrapping at intermediate width */
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+	#search-input {
+		margin-left:-50px;
+		width:100px;
+	}	
+}
+
+#custom-search-input .search-query,
+#custom-results-input .search-query {
+	padding-right: 3px;
+	padding-right: 4px \9;
+	padding-left: 3px;
+	padding-left: 4px \9;
+	/* IE7-8 doesn't have border-radius, so don't indent the padding */
+	margin-bottom: 10px;
+	margin-right: 0px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#custom-search-input button,	
+#custom-results-input button {
+	border: 0;
+	background: none;
+	/* styles below work well */
+	padding: 2px 5px;
+	margin-top: 2px;
+	position: relative;
+	left: -28px;
+	/* IE7-8 doesn't have border-radius, so don't indent the padding */
+	margin-bottom: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color:#D9230F;
+}
+
+.search-query:focus + button {
+	z-index: 3;   
+}
+
+#mainnav-mobi .mobi-search-left {
+	/* Float the search field left in the mobile menu */
+    float: left !important;
+}
+
+
+/* Restyle Markdown Headings */
+.entry-content h1 {
+	font-size: 22px;
+}
+
+.entry-content h2 {
+	font-size: 20px;
+}
+
+.entry-content h3 {
+	font-size: 18px;
+}
+
+.entry-content h4 {
+	font-size: 16px;
+}
+
+/* Sponsors */
+sponsorsContainer a {
+	text-decoration: none !important;
+}
+
+.csun {
+	height: 47px !important;
+}
+
+.ucsb {
+	height: 57px !important;
+}
+
+.miami {
+	height: 47px !important;
+}
+
+.csun,
+.ucsb,
+.miami {
+	width: auto;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.ucsb,
+.miami {
+	padding-top: 5px;
+
+}
+.csun,
+.ucsb {
+	padding-bottom: 5px;
+}
+
+.mellon img {
+	/* width: 350px; */
+	height: 97px;
+	width: auto;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+.social-media-icon {
+	color: #d65050;
+}
+
+.footer-widgets {
+	padding: 15px 0 45px 0;
+	margin-top: 0;
+    background-color: #252525;
+}
+
+.page-wrap {
+    padding-bottom: 0px !important;
+}
+
+footer {
+	margin-top: 45px;
+}
+
+.footer-widgets {
+	padding: 15px 0 25px 0;
+}
+
+.site-footer, .site-footer a {
+	color: #fff !important;
+}
+
+.site-footer a:hover, .site-footer a:active, .site-footer a:focus {
+	color: #d65050 !important;
+}
+
+/* Handle alignment for logos */
+.logo-strip {
+	text-align: center;
+}
+/* Smaller than standard 980 */
+@media only screen and (max-width: 991px) {
+	.logo-strip {
+		text-align: left;
+	}		
+}
+	
+/* Default Wordpress Search Form Styling */
+.top-search-menu .search-submit{
+	display: none;
+  }
+  
+  .top-search-menu label{
+	position: relative;
+  }
+  
+  .top-search-menu label:before{
+	cursor: pointer;
+	font-family: FontAwesome;
+	content: '\f002';
+	display: inline-block;
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0px 6px;
+  }
+  
+  .top-search-menu .search-field{
+	height: 32px;
+	padding: 6px 5px 6px 25px;
+	font-weight: normal;
+  }
+  
+  .top-search-menu label:before{
+   color: #fff;
+  }
+  
+  .top-search-menu.input-expanded label:before{
+   color: #d65050;
+   padding: 3px 6px;
+   cursor: pointer;   
+  }
+  
+  .top-search-menu input{
+	opacity: 0;
+	width: 0;
+	cursor: pointer;
+  }
+  
+.top-search-menu.input-expanded input{
+	opacity: 1;
+	width: 167px;
+	height: 32px;
+	padding: 6px 5px 6px 25px;
+	font-weight: normal;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-appearance: none;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	color: #767676;
+    background-color: #fafafa;
+	border: 1px solid #dbdbdb;
+	cursor: text;
+}
+
+.top-search-menu.input-expanded input:focus {outline:none;}
+
+/* #mainnav-mobi ul > li > form {
+	// Move the search field to the left in the mobile menu
+    padding-left: 50px;
+} */
+@media (min-width: 1025px) {
+    #primary {
+        padding-top: 250px;
+        margin-top: -250px;
+    }
+}
