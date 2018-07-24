@@ -8,7 +8,7 @@
 
   $('.mainnav a[href*="#"], a.roll-button[href*="#"], .smoothscroll[href*="#"]').on('click', function (e) {
     if ($(this).text() === 'Blog') {
-      window.location = 'http://localhost/we1s/#primary';
+      window.location = 'http://we1s.ucsb.edu/#primary';
     } else {
       var target = this.hash;
       var $target = $(target);

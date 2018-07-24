@@ -25,11 +25,11 @@ function we1s_js() {
 /* To use the default Wordpress search form, rename 
    searchform.php and change the css class below to 
    top-search-menu. */
-add_filter('wp_nav_menu_items', 'sydney_child_add_search_form_to_nav', 10, 2);
-function sydney_child_add_search_form_to_nav($items, $args){
-  if ($args->theme_location == 'primary') {
-      $items .= '<li class="custom-search-input">'.get_search_form(false).'</li>';
-  }
-  return $items;
-}
+// add_filter('wp_nav_menu_items', 'sydney_child_add_search_form_to_nav', 10, 2);
+// function sydney_child_add_search_form_to_nav($items, $args){
+//   if ($args->theme_location == 'primary') {
+//       $items .= '<li class="custom-search-input">'.get_search_form(false).'</li>';
+//   }
+//   return $items;
+// }
 ?>

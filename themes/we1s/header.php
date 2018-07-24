@@ -36,16 +36,29 @@
             <div class="container">
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
-<div class="contact-we1s">
-<a href="mailto:contact@we1s.ucsb.edu">
-  <span class="screen-reader-text">Contact WE1S by Email</span>
-  <i class="fa fa-envelope fa-2x social-media-icon" aria-hidden="true" title="Contact WE1S by Email"></i>
-</a>
-<a href="https://twitter.com/4Hum" target="_blank">
-  <span class="screen-reader-text">Follow WE1S on Twitter</span>
-  <i class="fa fa-twitter fa-2x social-media-icon" aria-hidden="true" title="Follow WE1S on Twitter"></i>
-</a>
-</div>						
+						<form id="search-form" role="search" method="get" class="search-form text-right" action="http://contact@we1s.ucsb.edu/">
+							<div id="custom-search-input">
+							<div class="input-group input-group-sm col-md-12">
+								<span class="screen-reader-text">Search for:</span>
+								<input id="search-input" type="text" class="  search-query form-control" placeholder="Search ..." value="" name="s">
+								<span class="input-group-btn">
+									<button class="btn btn-danger" type="button">
+									<i class="fa fa-search" aria-hidden="true" onclick="document.getElementById('search-form').submit();"></i>
+									</button>
+								</span>
+								<span class="input-group contact-group">
+									<a href="mailto:contact@we1s.ucsb.edu">
+										<span class="screen-reader-text">Contact WE1S by Email</span>
+										<i class="fa fa-envelope fa-2x social-media-icon" aria-hidden="true" title="Contact WE1S by Email"></i>
+									</a>
+									<a href="https://twitter.com/4Hum" target="_blank">
+										<span class="screen-reader-text">Follow WE1S on Twitter</span>
+										<i class="fa fa-twitter fa-2x social-media-icon" aria-hidden="true" title="Follow WE1S on Twitter"></i>
+									</a>									
+								</span>
+							</div>
+						</div>
+						</form>
 					</div>
 				</div>
                 <div class="row">

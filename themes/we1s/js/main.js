@@ -93,7 +93,7 @@
                 return false;
           }
         } else {
-          window.location = 'http://localhost/we1s/#primary';
+          window.location = 'http://we1s.ucsb.edu/#primary';
         }
 			});
 		});

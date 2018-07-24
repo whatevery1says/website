@@ -11,16 +11,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: we1s
 */
 
-.contact-we1s {
+.contact-group {
+	padding: 2px 0; 
+}
+/* .contact-we1s {
 	padding: 0 25px 0 0;
 	text-align: right;
-}		
+}		 */
 /* Smaller than standard 980 */
-@media only screen and (max-width: 991px) {
+/* @media only screen and (max-width: 991px) {
 	.contact-we1s {
 		padding: 0;
 	}		
-}
+} */
 
 .search-results-form {
 	text-align: left;
@@ -40,6 +43,7 @@ h2.site-description a {
 }
 
 /* Visible Search Menu */
+
 #custom-search-input {
 	margin:0;
 	margin-top: -5px;
@@ -52,14 +56,15 @@ h2.site-description a {
 }
 
 #custom-search-input .input-group {
-	margin-left: 25px;
+	margin-left: 15px;
+	float: right;
 }
 
 /* Prevent search bar from wrapping at intermediate width */
 @media only screen and (min-width: 1025px) and (max-width: 1200px){
 	#search-input {
 		margin-left:-50px;
-		width:100px;
+		width:90px;
 	}	
 }
 
