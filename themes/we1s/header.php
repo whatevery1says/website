@@ -58,6 +58,10 @@
 									<a href="https://twitter.com/WE1Sproject" target="_blank">
 										<span class="screen-reader-text">Follow WE1S on Twitter</span>
 										<i class="fa fa-twitter fa-2x social-media-icon" aria-hidden="true" title="Follow WE1S on Twitter"></i>
+									</a>
+									<a href="https://www.cafepress.com/we1sproject" target="_blank">
+										<span class="screen-reader-text">Follow WE1S on Twitter</span>
+										<i class="fa fa-shopping-cart fa-2x social-media-icon" aria-hidden="true" title="WE1S Shop"></i>
 									</a>									
 								</span>
 							</div>
