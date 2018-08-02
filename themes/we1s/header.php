@@ -51,7 +51,11 @@
 										<span class="screen-reader-text">Contact WE1S by Email</span>
 										<i class="fa fa-envelope fa-2x social-media-icon" aria-hidden="true" title="Contact WE1S by Email"></i>
 									</a>
-									<a href="https://twitter.com/4Hum" target="_blank">
+									<a href="https://www.facebook.com/WE1Sproject/" target="_blank">
+										<span class="screen-reader-text">Follow WE1S on Facebook</span>
+										<i class="fa fa-facebook fa-2x social-media-icon" aria-hidden="true" title="Follow WE1S on Facebook"></i>
+									</a>									
+									<a href="https://twitter.com/WE1Sproject" target="_blank">
 										<span class="screen-reader-text">Follow WE1S on Twitter</span>
 										<i class="fa fa-twitter fa-2x social-media-icon" aria-hidden="true" title="Follow WE1S on Twitter"></i>
 									</a>									
